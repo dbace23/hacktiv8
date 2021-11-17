@@ -17,5 +17,6 @@ def ubahTemp(angka2=0,mode="farenheit"):
     return f"hasil konversi dari {angka2} celcius adalah {ubahC2K(angka=angka2)} farenheit "
   elif mode.lower()=="farenheit":
     return f"hasil konversi dari {angka2} farenheit adalah {ubahK2C(angka=angka2)} celcius" 
+  else:
     print("masukin celcius/ farenheit")
 ubahTemp(mode="farenheit")
